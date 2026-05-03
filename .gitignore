@@ -1,0 +1,3 @@
+echo "node_modules/
+api_test_results.log
+.env" > .gitignore
