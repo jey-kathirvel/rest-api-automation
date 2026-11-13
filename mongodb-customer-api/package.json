@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-customer-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio demonstration of MongoDB CRUD API testing",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
